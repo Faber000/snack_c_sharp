@@ -89,8 +89,8 @@ Console.WriteLine("La media è: "+ somma/cont);
 Console.WriteLine("inserisci un numero");
 int number = Convert.ToInt32(Console.ReadLine);
 
-// se il numero è dispari
-if (number % 2 != 0)
+// se il numero è pari
+if (number % 2 == 0)
 {
     Console.WriteLine(number);
 } 
