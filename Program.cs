@@ -90,7 +90,7 @@ Console.WriteLine("inserisci un numero");
 int number = Convert.ToInt32(Console.ReadLine);
 
 // se il numero è dispari
-if (number % 2 == 0)
+if (number % 2 != 0)
 {
     Console.WriteLine(number);
 } 
