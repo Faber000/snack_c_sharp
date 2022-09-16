@@ -48,7 +48,6 @@ else
 
 
 
-
 // SNACK 3 ________________________________________________________________________________________
 
 int somma = 0;
@@ -60,7 +59,6 @@ for (int i = 0; i < 10; i++)
     somma = somma + Convert.ToInt32(Console.ReadLine());
 }
 Console.WriteLine("La somma è: "+somma);
-
 
 
 
@@ -85,7 +83,6 @@ Console.WriteLine("La media è: "+ somma/cont);
 
 
 
-
 // SNACK 5 _________________________________________________________________________________________
 
 // ottengo il numero
@@ -102,7 +99,6 @@ else
 {
     Console.WriteLine(number + 1);
 }
-
 
 
 
@@ -161,7 +157,6 @@ for (int i = 0; i < 6; i++)
 
 
 
-
 // SNACK 8  _________________________________________________________________________________________
 
 int[] array = { 1, 3, 56, 33 };
@@ -177,8 +172,6 @@ for (int i = 0; i < array.Length; i++)
 }
 
 Console.WriteLine("La somma è: "+somma);
-
-
 
 
 
@@ -205,7 +198,6 @@ do
     i++;
 
 } while (somma < 50);
-
 
 
 
